@@ -1,0 +1,90 @@
+.rank {
+  width: 1200px;
+  margin: 0 auto;
+}
+.rank .tab {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 312px;
+}
+.rank .tab .tab-tit {
+  text-align: center;
+}
+.rank .tab .tab-tit a {
+  display: block;
+  padding: 0 18px;
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  color: #999;
+}
+.rank .tab .tab-tit a p {
+  margin: 5px 0;
+}
+.rank .tab .tab-tit a .img i {
+  width: 35px;
+  height: 35px;
+  display: block;
+  background: url(images/bg0.png);
+  margin-left: 10px;
+}
+.rank .tab .tab-tit a .text {
+  line-height: 28px;
+}
+.rank .tab .tab-tit .on {
+  color: #e60012;
+}
+.rank .tab .tab-tit .on .img i {
+  background-position: -35px 0;
+}
+.rank .content {
+  overflow: hidden;
+  padding: 10px;
+}
+.rank .content ul li {
+  overflow: hidden;
+  list-style: none;
+  line-height: 18px;
+}
+.rank .content ul li .img-item {
+  border: 1px solid #e1251b;
+  width: 269px;
+  float: left;
+  overflow: hidden;
+  margin: 0 12px 10px;
+  background: #fff;
+}
+.rank .content ul li .img-item .tab-pic {
+  width: 230px;
+  height: 210px;
+  overflow: hidden;
+  text-align: center;
+  margin: 5px auto 18px;
+}
+.rank .content ul li .img-item .tab-pic a img {
+  width: 200px;
+  height: 200px;
+}
+.rank .content ul li .img-item .tab-info {
+  background: #fafafa;
+}
+.rank .content ul li .img-item .tab-info .info-title {
+  height: 50px;
+  line-height: 28px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+.rank .content ul li .img-item .tab-info .info-title a {
+  color: #333;
+  text-decoration: none;
+}
+.rank .content ul li .img-item .tab-info .info-price {
+  font-size: 20px;
+  color: #e1251b;
+  height: 35px;
+  padding-left: 10px;
+  display: block;
+  line-height: 24px;
+  margin: 10px auto 0;
+}

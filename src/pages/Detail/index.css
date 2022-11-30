@@ -1,0 +1,387 @@
+.detail .con {
+  width: 1200px;
+  margin: 15px auto 0;
+}
+.detail .con .conPoin {
+  padding: 9px 15px 9px 0;
+}
+.detail .con .conPoin > span + span:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #ccc;
+}
+.detail .con .mainCon {
+  overflow: hidden;
+  margin: 5px 0 15px;
+}
+.detail .con .mainCon .previewWrap {
+  float: left;
+  width: 400px;
+  position: relative;
+}
+.detail .con .mainCon .InfoWrap {
+  width: 700px;
+  float: right;
+}
+.detail .con .mainCon .InfoWrap .InfoName {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+.detail .con .mainCon .InfoWrap .news {
+  color: #e12228;
+  margin-top: 15px;
+}
+.detail .con .mainCon .InfoWrap .priceArea {
+  background: #fee9eb;
+  padding: 7px;
+  margin: 13px 0;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 {
+  overflow: hidden;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 .title {
+  float: left;
+  margin-right: 15px;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 .price {
+  float: left;
+  color: #c81623;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 .price i {
+  font-size: 16px;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 .price em {
+  font-size: 24px;
+  font-weight: 700;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 .price span {
+  font-size: 12px;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea1 .remark {
+  float: right;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea2 {
+  overflow: hidden;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea2 .title {
+  margin-right: 15px;
+  float: left;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea2 .fixWidth {
+  width: 520px;
+  float: left;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea2 .fixWidth .red-bg {
+  background: #c81623;
+  color: #fff;
+  padding: 3px;
+}
+.detail .con .mainCon .InfoWrap .priceArea .priceArea2 .fixWidth .t-gray {
+  color: #999;
+}
+.detail .con .mainCon .InfoWrap .support {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.detail .con .mainCon .InfoWrap .support .supportArea {
+  overflow: hidden;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.detail .con .mainCon .InfoWrap .support .supportArea .title {
+  margin-right: 15px;
+  float: left;
+}
+.detail .con .mainCon .InfoWrap .support .supportArea .fixWidth {
+  width: 520px;
+  float: left;
+  color: #999;
+}
+.detail .con .mainCon .InfoWrap .choose .chooseArea {
+  overflow: hidden;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.detail .con .mainCon .InfoWrap .choose .chooseArea dl {
+  overflow: hidden;
+  margin: 13px 0;
+}
+.detail .con .mainCon .InfoWrap .choose .chooseArea dl dt {
+  margin-right: 15px;
+  float: left;
+}
+.detail .con .mainCon .InfoWrap .choose .chooseArea dl dd {
+  float: left;
+  margin-right: 5px;
+  color: #666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #eee;
+}
+.detail .con .mainCon .InfoWrap .choose .chooseArea dl dd.active {
+  color: green;
+  border: 1px solid green;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .controls {
+  width: 48px;
+  position: relative;
+  float: left;
+  margin-right: 15px;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .controls .itxt {
+  width: 38px;
+  height: 37px;
+  border: 1px solid #ddd;
+  color: #555;
+  float: left;
+  border-right: 0;
+  text-align: center;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .controls .plus,
+.detail .con .mainCon .InfoWrap .choose .cartWrap .controls .mins {
+  width: 15px;
+  text-align: center;
+  height: 17px;
+  line-height: 17px;
+  background: #f1f1f1;
+  color: #666;
+  position: absolute;
+  right: -8px;
+  border: 1px solid #ccc;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .controls .mins {
+  right: -8px;
+  top: 19px;
+  border-top: 0;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .controls .plus {
+  right: -8px;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .add {
+  float: left;
+}
+.detail .con .mainCon .InfoWrap .choose .cartWrap .add a {
+  background-color: #e1251b;
+  padding: 0 25px;
+  font-size: 16px;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  display: block;
+}
+.detail .product-detail {
+  width: 1200px;
+  margin: 30px auto 0;
+  overflow: hidden;
+}
+.detail .product-detail .aside {
+  width: 210px;
+  float: left;
+  border: 1px solid #ccc;
+}
+.detail .product-detail .aside .tabWraped {
+  height: 40px;
+}
+.detail .product-detail .aside .tabWraped h4 {
+  border-top: 3px solid #fff;
+  float: left;
+  line-height: 37px;
+  width: 105px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.detail .product-detail .aside .tabWraped h4.active {
+  border-top: 3px solid #e1251b;
+  border-bottom: 0;
+  font-weight: normal;
+}
+.detail .product-detail .aside .tabContent {
+  padding: 10px;
+}
+.detail .product-detail .aside .tabContent .tab-pane {
+  display: none;
+}
+.detail .product-detail .aside .tabContent .tab-pane.active {
+  display: block;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .partList {
+  overflow: hidden;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .partList li {
+  width: 50%;
+  float: left;
+  border-bottom: 1px dashed #ededed;
+  line-height: 28px;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .goodsList > li {
+  margin: 5px 0 15px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .goodsList > li .list-wrap .p-img {
+  text-align: center;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .goodsList > li .list-wrap .p-img img {
+  width: 152px;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .goodsList > li .list-wrap .price {
+  font-size: 16px;
+  color: #c81623;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .goodsList > li .list-wrap .operate {
+  text-align: center;
+  margin: 5px 0;
+}
+.detail .product-detail .aside .tabContent .tab-pane:nth-child(1) .goodsList > li .list-wrap .operate a {
+  background-color: transparent;
+  border: 1px solid #8c8c8c;
+  color: #8c8c8c;
+  display: inline-block;
+  padding: 2px 14px;
+  line-height: 18px;
+}
+.detail .product-detail .detail {
+  width: 980px;
+  float: right;
+}
+.detail .product-detail .detail .fitting {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.detail .product-detail .detail .fitting .kt {
+  border-bottom: 1px solid #ddd;
+  background: #f1f1f1;
+  color: #333;
+  padding: 5px 0 5px 15px;
+}
+.detail .product-detail .detail .fitting .good-suits {
+  height: 170px;
+  padding-top: 10px;
+}
+.detail .product-detail .detail .fitting .good-suits .master {
+  width: 127px;
+  height: 165px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+.detail .product-detail .detail .fitting .good-suits .master img {
+  width: 87px;
+}
+.detail .product-detail .detail .fitting .good-suits .master p {
+  color: #c81623;
+  font-size: 16px;
+  font-weight: 700;
+}
+.detail .product-detail .detail .fitting .good-suits .master i {
+  position: absolute;
+  top: 48px;
+  right: -25px;
+  font-size: 16px;
+}
+.detail .product-detail .detail .fitting .good-suits .suits {
+  width: 668px;
+  height: 165px;
+  float: left;
+}
+.detail .product-detail .detail .fitting .good-suits .suits .suitsItem {
+  float: left;
+  width: 127px;
+  padding: 0 20px;
+  text-align: center;
+}
+.detail .product-detail .detail .fitting .good-suits .suits .suitsItem img {
+  width: 120px;
+  height: 130px;
+}
+.detail .product-detail .detail .fitting .good-suits .suits .suitsItem p {
+  font-size: 12px;
+}
+.detail .product-detail .detail .fitting .good-suits .suits .suitsItem label {
+  display: block;
+  position: relative;
+}
+.detail .product-detail .detail .fitting .good-suits .suits .suitsItem label input {
+  vertical-align: middle;
+}
+.detail .product-detail .detail .fitting .good-suits .suits .suitsItem label span {
+  vertical-align: middle;
+}
+.detail .product-detail .detail .fitting .good-suits .result {
+  border-left: 1px solid #ddd;
+  width: 153px;
+  height: 165px;
+  padding-left: 20px;
+  float: left;
+}
+.detail .product-detail .detail .fitting .good-suits .result .num {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.detail .product-detail .detail .fitting .good-suits .result .price-tit {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.detail .product-detail .detail .fitting .good-suits .result .price {
+  color: #B1191A;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.detail .product-detail .detail .fitting .good-suits .result .addshopcar {
+  background-color: #e1251b;
+  border: 1px solid #e1251b;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.detail .product-detail .detail .intro .tab-wraped {
+  background: #ededed;
+  overflow: hidden;
+}
+.detail .product-detail .detail .intro .tab-wraped li {
+  float: left;
+}
+.detail .product-detail .detail .intro .tab-wraped li + li > a {
+  border-left: 1px solid #ddd;
+}
+.detail .product-detail .detail .intro .tab-wraped li.active a {
+  background: #e1251b;
+  color: #fff;
+}
+.detail .product-detail .detail .intro .tab-wraped li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 11px;
+  text-align: center;
+  color: #666;
+  background: #fcfcfc;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.detail .product-detail .detail .intro .tab-content .tab-pane {
+  display: none;
+}
+.detail .product-detail .detail .intro .tab-content .tab-pane.active {
+  display: block;
+}
+.detail .product-detail .detail .intro .tab-content .tab-pane:nth-child(1) .goods-intro {
+  padding-left: 10px;
+}
+.detail .product-detail .detail .intro .tab-content .tab-pane:nth-child(1) .goods-intro li {
+  margin: 10px 0;
+}
+.detail .product-detail .detail .intro .tab-content .tab-pane:nth-child(1) .intro-detail img {
+  width: 100%;
+}

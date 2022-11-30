@@ -1,0 +1,105 @@
+.type-nav {
+  border-bottom: 2px solid #e1251b;
+}
+.type-nav .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.type-nav .container .all {
+  width: 210px;
+  height: 45px;
+  background-color: #e1251b;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.type-nav .container .nav a {
+  height: 45px;
+  margin: 0 22px;
+  line-height: 45px;
+  font-size: 16px;
+  color: #333;
+}
+.type-nav .container .sort {
+  left: 0;
+  top: 45px;
+  width: 210px;
+  height: 461px;
+  position: absolute;
+  background: #fafafa;
+  z-index: 999;
+}
+.type-nav .container .sort .all-sort-list2 .item h3 {
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0;
+}
+.type-nav .container .sort .all-sort-list2 .item h3 a {
+  color: #333;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list {
+  display: none;
+  position: absolute;
+  width: 734px;
+  min-height: 460px;
+  background: #f7f7f7;
+  left: 210px;
+  border: 1px solid #ddd;
+  top: 0;
+  z-index: 9999 !important;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list .subitem {
+  float: left;
+  width: 650px;
+  padding: 0 4px 0 8px;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list .subitem dl {
+  border-top: 1px solid #eee;
+  padding: 6px 0;
+  overflow: hidden;
+  zoom: 1;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list .subitem dl.fore {
+  border-top: 0;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list .subitem dl dt {
+  float: left;
+  width: 54px;
+  line-height: 22px;
+  text-align: right;
+  padding: 3px 6px 0 0;
+  font-weight: 700;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list .subitem dl dd {
+  float: left;
+  width: 415px;
+  padding: 3px 0 0;
+  overflow: hidden;
+}
+.type-nav .container .sort .all-sort-list2 .item .item-list .subitem dl dd em {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 8px;
+  margin-top: 5px;
+  border-left: 1px solid #ccc;
+}
+.type-nav .container .sort .all-sort-list2 .cur {
+  background-color: skyblue;
+}
+.type-nav .container .sort-enter {
+  height: 0;
+}
+.type-nav .container .sort-enter-to {
+  height: 461px;
+}
+.type-nav .container .sort-enter-active {
+  transition: all 0.5s linear;
+}
